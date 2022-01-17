@@ -4,17 +4,18 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ImageView
         android:id="@+id/baseImageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher"
-        />
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher" />
+
     <TextView
         android:id="@+id/baseTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="myTextView"
         android:layout_gravity="center_horizontal"
-        android:textSize="25sp"/>
+        android:text="myTextView"
+        android:textSize="25sp" />
+
 </LinearLayout>
