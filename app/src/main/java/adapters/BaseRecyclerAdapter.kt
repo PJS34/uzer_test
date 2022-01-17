@@ -9,7 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.uzer_test.R
 import com.squareup.picasso.Picasso
 
-class BaseRecyclerAdapter(val list :List< Pair<String,String>>) : RecyclerView.Adapter<BaseViewHolder>() {
+class BaseRecyclerAdapter(val list: List<Pair<String, String>>) :
+    RecyclerView.Adapter<BaseViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val view = layoutInflater.inflate(R.layout.recycler_base_item, parent, false)
